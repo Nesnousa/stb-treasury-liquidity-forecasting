@@ -1,0 +1,30 @@
+# Real STB Bank data - confidential internal banking data, not for a public
+# repo (see README for why). Never remove these lines.
+*.csv
+*.pbix
+*.xlsx
+*.zip
+
+# Internship administrative / personal documents - not for a public repo.
+Atestation.pdf
+Journal de Stage stages obligatoires 25_26.docx
+Journal de Stage.pdf
+lettre d'affectation.pdf
+Stage_STB.pdf
+Stage_STB.zip
+
+# The original working notebook - its saved outputs contain real bank data
+# (branch manager names, real balances). Only the sanitized copy
+# (treasury_liquidity_forecasting.ipynb) is meant to be tracked.
+Project STB.ipynb
+
+# Report source (kept local for now - not reviewed for confidential figures)
+rapport_stage.tex
+
+# Standard
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.pyc
