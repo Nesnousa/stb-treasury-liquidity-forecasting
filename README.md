@@ -94,6 +94,21 @@ Liquidités") used to monitor treasury and liquidity positions across
 branches. The dashboard file itself isn't published here for the same
 confidentiality reason as the raw data.
 
+## Dashboard
+
+The final predictions feed a Power BI report used to monitor treasury and
+liquidity positions across branches. Screenshots below show the report's
+navigation and a few of its pages; exact balance figures and per-register
+detail tables have been cropped out for confidentiality, leaving the
+aggregate charts and model performance metrics.
+
+| | |
+|---|---|
+| ![Navigation](docs/dashboard/dashboard_navigation.png) | ![Soldes Insights](docs/dashboard/dashboard_soldes_insights.png) |
+| ![Geographic analysis](docs/dashboard/dashboard_geographic_analysis.png) | ![Caisse analysis](docs/dashboard/dashboard_caisse_analysis.png) |
+| ![XGBoost model](docs/dashboard/dashboard_xgboost_model.png) | ![Random Forest model](docs/dashboard/dashboard_random_forest_model.png) |
+| ![Models comparison](docs/dashboard/dashboard_models_comparison.png) | |
+
 ## Tools
 
 Python (pandas, NumPy), scikit-learn, XGBoost, matplotlib/seaborn for
